@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int binary(int arr[], int low, int high, int key)
 {
@@ -34,12 +34,13 @@ int binary(int arr[], int low, int high, int key)
     return -1;
 }
 
-int main(){
-    int arr[]={4,5,6,7,0,1,2};
-    int n=7;
-   int key=0;
-   int low=0;
-   int high=n-1;
- int result = binary(arr,low,high,key);
- cout<<result;
+int main()
+{
+    int arr[] = {4, 5, 6, 7, 0, 1, 2};
+    int n = 7;
+    int key = 0;
+    int low = 0;
+    int high = n - 1;
+    int result = binary(arr, low, high, key);
+    cout << result << " is the index of the element";
 }
